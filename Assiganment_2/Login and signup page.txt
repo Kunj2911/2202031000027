@@ -1,0 +1,79 @@
+HTML
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 offset-sm-3">
+      <h1 class="text-center">LOGIN</h1>
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter password">
+        </div>
+        <div class="form-group">
+          <label for="repassword">Re-enter Password</label>
+          <input type="password" class="form-control" id="repassword" placeholder="Re-enter password">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+      <p class="text-center">Don't have an account? <a href="#">Sign Up</a></p>
+    </div>
+  </div>
+</div>
+
+
+
+CSS
+
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="password"]:focus {
+  box-shadow: 0 0 5px 0 #777;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}

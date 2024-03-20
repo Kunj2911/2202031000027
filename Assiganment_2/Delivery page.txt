@@ -1,0 +1,64 @@
+HTML
+
+HTML for this:-<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h2>Delivery on your place.</h2>
+      <p>
+        FIND YOUR NEAREST STORE<br>
+        Enter your address to see your local deals, coupons and offers<br>
+        Enter your location for delivery<br>
+        Find My current Location.
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <h2>Collect from store</h2>
+      <p>
+        FIND YOUR NEAREST BRANCH<br>
+        Enter your address to see your local deals, coupons and offers<br>
+        Enter your collection location<br>
+        Find My current Location.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+CSS
+
+
+CSS for this :-.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.col-sm-6 {
+  border-right: 1px solid #ccc;
+  padding-right: 30px;
+}
+
+.col-sm-6:last-child {
+  padding-left: 30px;
+}
+
+@media (max-width: 576px) {
+  .col-sm-6 {
+    border-right: none;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+
+  .col-sm-6:last-child {
+    padding-left: 0;
+  }
+}
